@@ -1,0 +1,153 @@
+Log Type: directory.info
+Log Upload Time: Sat Sep 23 01:55:10 +0530 2017
+Log Length: 16312
+ls -l:
+total 48
+-rw-r--r-- 1 yarn hadoop  101 Sep 22 22:15 container_tokens
+-rwx------ 1 yarn hadoop  764 Sep 22 22:15 default_container_executor.sh
+-rwx------ 1 yarn hadoop  710 Sep 22 22:15 default_container_executor_session.sh
+lrwxrwxrwx 1 yarn hadoop  115 Sep 22 22:15 job.jar -> /scratch-node-local/yarn/local/usercache/dravishankar7/appcache/application_1503400455897_2311/filecache/11/job.jar
+lrwxrwxrwx 1 yarn hadoop  115 Sep 22 22:15 job.xml -> /scratch-node-local/yarn/local/usercache/dravishankar7/appcache/application_1503400455897_2311/filecache/13/job.xml
+drwxr-xr-x 2 yarn hadoop 4096 Sep 22 22:15 jobSubmitDir
+-rwx------ 1 yarn hadoop 6609 Sep 22 22:15 launch_container.sh
+lrwxrwxrwx 1 yarn hadoop   78 Sep 22 22:15 map_cal.py -> /scratch-node-local/yarn/local/usercache/dravishankar7/filecache/64/map_cal.py
+lrwxrwxrwx 1 yarn hadoop   60 Sep 22 22:15 mr-framework -> /scratch-node-local/yarn/local/filecache/10/mapreduce.tar.gz
+lrwxrwxrwx 1 yarn hadoop   78 Sep 22 22:15 red_cal.py -> /scratch-node-local/yarn/local/usercache/dravishankar7/filecache/65/red_cal.py
+drwx--x--- 2 yarn hadoop 4096 Sep 22 22:15 tmp
+find -L . -maxdepth 5 -ls:
+ 61473738      4 drwx--x---   4 yarn     hadoop       4096 Sep 22 22:15 .
+ 61473744      4 -rwx------   1 yarn     hadoop        710 Sep 22 22:15 ./default_container_executor_session.sh
+ 61341718      4 drwxr-xr-x   3 yarn     hadoop       4096 Aug  3 06:12 ./mr-framework
+ 61341727      4 drwxr-xr-x   9 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop
+ 61342741     88 -r-xr-xr-x   1 yarn     hadoop      86424 May 31 06:41 ./mr-framework/hadoop/LICENSE.txt
+ 61342742      4 drwxr-xr-x   3 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/etc
+ 61342743      4 drwxr-xr-x   2 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/etc/hadoop
+ 61342757      4 -r-xr-xr-x   1 yarn     hadoop        620 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/httpfs-site.xml
+ 61342771      4 -r-xr-xr-x   1 yarn     hadoop       2598 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/hadoop-metrics2.properties
+ 61342758      4 -r-xr-xr-x   1 yarn     hadoop       1383 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/mapred-env.sh
+ 61342746      8 -r-xr-xr-x   1 yarn     hadoop       4436 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/capacity-scheduler.xml
+ 61342772      4 -r-xr-xr-x   1 yarn     hadoop         21 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/httpfs-signature.secret
+ 61342759      8 -r-xr-xr-x   1 yarn     hadoop       4529 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/hadoop-env.sh
+ 61342747      8 -r-xr-xr-x   1 yarn     hadoop       4567 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/yarn-env.sh
+ 61342768      4 -r-xr-xr-x   1 yarn     hadoop        774 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/core-site.xml
+ 61342755      4 -r-xr-xr-x   1 yarn     hadoop       2697 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/ssl-server.xml.example
+ 61342752      4 -r-xr-xr-x   1 yarn     hadoop       1631 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/kms-log4j.properties
+ 61342748      4 -r-xr-xr-x   1 yarn     hadoop       1536 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/httpfs-env.sh
+ 61342765      4 -r-xr-xr-x   1 yarn     hadoop       1657 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/httpfs-log4j.properties
+ 61342763      4 -r-xr-xr-x   1 yarn     hadoop       2490 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/hadoop-metrics.properties
+ 61342767      4 -r-xr-xr-x   1 yarn     hadoop        775 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/hdfs-site.xml
+ 61342754      4 -r-xr-xr-x   1 yarn     hadoop       1335 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/configuration.xsl
+ 61342753     12 -r-xr-xr-x   1 yarn     hadoop       9683 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/hadoop-policy.xml
+ 61342766      4 -r-xr-xr-x   1 yarn     hadoop        951 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/mapred-env.cmd
+ 61342756     16 -r-xr-xr-x   1 yarn     hadoop      12302 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/log4j.properties
+ 61342745      4 -r-xr-xr-x   1 yarn     hadoop        758 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/mapred-site.xml.template
+ 61342750      8 -r-xr-xr-x   1 yarn     hadoop       5511 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/kms-site.xml
+ 61342760      4 -r-xr-xr-x   1 yarn     hadoop       3979 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/hadoop-env.cmd
+ 61342769      4 -r-xr-xr-x   1 yarn     hadoop        690 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/yarn-site.xml
+ 61342770      4 -r-xr-xr-x   1 yarn     hadoop       1527 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/kms-env.sh
+ 61342761      8 -r-xr-xr-x   1 yarn     hadoop       4113 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/mapred-queues.xml.template
+ 61342751      4 -r-xr-xr-x   1 yarn     hadoop         10 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/slaves
+ 61342749      4 -r-xr-xr-x   1 yarn     hadoop        318 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/container-executor.cfg
+ 61342764      4 -r-xr-xr-x   1 yarn     hadoop       2250 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/yarn-env.cmd
+ 61342744      4 -r-xr-xr-x   1 yarn     hadoop       2316 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/ssl-client.xml.example
+ 61342762      4 -r-xr-xr-x   1 yarn     hadoop       3518 May 31 06:41 ./mr-framework/hadoop/etc/hadoop/kms-acls.xml
+ 61342773     16 -r-xr-xr-x   1 yarn     hadoop      15753 May 31 06:41 ./mr-framework/hadoop/NOTICE.txt
+ 61342711      4 drwxr-xr-x   2 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/bin
+ 61342713     16 -r-xr-xr-x   1 yarn     hadoop      14958 May 31 06:41 ./mr-framework/hadoop/bin/yarn
+ 61342712      8 -r-xr-xr-x   1 yarn     hadoop       6448 May 31 06:41 ./mr-framework/hadoop/bin/mapred
+ 61342721     16 -r-xr-xr-x   1 yarn     hadoop      12707 May 31 06:41 ./mr-framework/hadoop/bin/hdfs
+ 61342719      4 -r-xr-xr-x   1 yarn     hadoop        888 May 31 06:41 ./mr-framework/hadoop/bin/kill-secondary-name-node
+ 61342722    184 -r-xr-xr-x   1 yarn     hadoop     185640 May 31 06:41 ./mr-framework/hadoop/bin/container-executor
+ 61342714     12 -r-xr-xr-x   1 yarn     hadoop      12069 May 31 06:41 ./mr-framework/hadoop/bin/yarn.cmd
+ 61342720     12 -r-xr-xr-x   1 yarn     hadoop       8786 May 31 06:41 ./mr-framework/hadoop/bin/hadoop.cmd
+ 61342717      4 -r-xr-xr-x   1 yarn     hadoop       1857 May 31 06:41 ./mr-framework/hadoop/bin/rcc
+ 61342718      4 -r-xr-xr-x   1 yarn     hadoop        830 May 31 06:41 ./mr-framework/hadoop/bin/kill-name-node
+ 61342723     12 -r-xr-xr-x   1 yarn     hadoop       8782 May 31 06:41 ./mr-framework/hadoop/bin/hdfs.cmd
+ 61342715    212 -r-xr-xr-x   1 yarn     hadoop     216282 May 31 06:41 ./mr-framework/hadoop/bin/test-container-executor
+ 61342716      8 -r-xr-xr-x   1 yarn     hadoop       7120 May 31 06:41 ./mr-framework/hadoop/bin/hadoop
+ 61342724      8 -r-xr-xr-x   1 yarn     hadoop       7465 May 31 06:41 ./mr-framework/hadoop/bin/mapred.cmd
+ 61342682      4 drwxr-xr-x   2 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/sbin
+ 61342702      4 -r-xr-xr-x   1 yarn     hadoop       1401 May 31 06:41 ./mr-framework/hadoop/sbin/start-dfs.cmd
+ 61342706      4 -r-xr-xr-x   1 yarn     hadoop       1640 May 31 06:41 ./mr-framework/hadoop/sbin/hdfs-config.cmd
+ 61342697      4 -r-xr-xr-x   1 yarn     hadoop       1552 May 31 06:41 ./mr-framework/hadoop/sbin/start-all.sh
+ 61342696      4 -r-xr-xr-x   1 yarn     hadoop       1508 May 31 06:41 ./mr-framework/hadoop/sbin/hdfs-config.sh
+ 61342695      4 -r-xr-xr-x   1 yarn     hadoop       1571 May 31 06:41 ./mr-framework/hadoop/sbin/start-yarn.cmd
+ 61342707      4 -r-xr-xr-x   1 yarn     hadoop       1428 May 31 06:41 ./mr-framework/hadoop/sbin/start-yarn.sh
+ 61342689      4 -r-xr-xr-x   1 yarn     hadoop       2226 May 31 06:41 ./mr-framework/hadoop/sbin/slaves.sh
+ 61342687      4 -r-xr-xr-x   1 yarn     hadoop       1209 May 31 06:41 ./mr-framework/hadoop/sbin/start-balancer.sh
+ 61342694      4 -r-xr-xr-x   1 yarn     hadoop       2752 May 31 06:41 ./mr-framework/hadoop/sbin/distribute-exclude.sh
+ 61342703      4 -r-xr-xr-x   1 yarn     hadoop       1455 May 31 06:41 ./mr-framework/hadoop/sbin/stop-dfs.cmd
+ 61342690      4 -r-xr-xr-x   1 yarn     hadoop       1441 May 31 06:41 ./mr-framework/hadoop/sbin/hadoop-daemons.sh
+ 61342686      4 -r-xr-xr-x   1 yarn     hadoop       1770 May 31 06:41 ./mr-framework/hadoop/sbin/stop-all.cmd
+ 61342701      4 -r-xr-xr-x   1 yarn     hadoop       1434 May 31 06:41 ./mr-framework/hadoop/sbin/yarn-daemons.sh
+ 61342698      4 -r-xr-xr-x   1 yarn     hadoop       2291 May 31 06:41 ./mr-framework/hadoop/sbin/httpfs.sh
+ 61342710      4 -r-xr-xr-x   1 yarn     hadoop       1642 May 31 06:41 ./mr-framework/hadoop/sbin/stop-yarn.cmd
+ 61342684      4 -r-xr-xr-x   1 yarn     hadoop       3630 May 31 06:41 ./mr-framework/hadoop/sbin/kms.sh
+ 61342685      4 -r-xr-xr-x   1 yarn     hadoop       3815 May 31 06:41 ./mr-framework/hadoop/sbin/start-dfs.sh
+ 61342705      4 -r-xr-xr-x   1 yarn     hadoop       1421 May 31 06:41 ./mr-framework/hadoop/sbin/stop-secure-dns.sh
+ 61342699      4 -r-xr-xr-x   1 yarn     hadoop       1438 May 31 06:41 ./mr-framework/hadoop/sbin/start-secure-dns.sh
+ 61342683      8 -r-xr-xr-x   1 yarn     hadoop       6546 May 31 06:41 ./mr-framework/hadoop/sbin/hadoop-daemon.sh
+ 61342704      8 -r-xr-xr-x   1 yarn     hadoop       4161 May 31 06:41 ./mr-framework/hadoop/sbin/mr-jobhistory-daemon.sh
+ 61342709      4 -r-xr-xr-x   1 yarn     hadoop       1543 May 31 06:41 ./mr-framework/hadoop/sbin/stop-all.sh
+ 61342700      4 -r-xr-xr-x   1 yarn     hadoop       3287 May 31 06:41 ./mr-framework/hadoop/sbin/stop-dfs.sh
+ 61342692      4 -r-xr-xr-x   1 yarn     hadoop       1421 May 31 06:41 ./mr-framework/hadoop/sbin/stop-yarn.sh
+ 61342708      4 -r-xr-xr-x   1 yarn     hadoop       1729 May 31 06:41 ./mr-framework/hadoop/sbin/refresh-namenodes.sh
+ 61342691      8 -r-xr-xr-x   1 yarn     hadoop       4376 May 31 06:41 ./mr-framework/hadoop/sbin/yarn-daemon.sh
+ 61342688      4 -r-xr-xr-x   1 yarn     hadoop       1260 May 31 06:41 ./mr-framework/hadoop/sbin/stop-balancer.sh
+ 61342693      4 -r-xr-xr-x   1 yarn     hadoop       1779 May 31 06:41 ./mr-framework/hadoop/sbin/start-all.cmd
+ 61341739      4 -r-xr-xr-x   1 yarn     hadoop       1366 May 31 06:41 ./mr-framework/hadoop/README.txt
+ 61342725      4 drwxr-xr-x   3 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/lib
+ 61342726      4 drwxr-xr-x   2 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/lib/native
+ 61342729   1340 -r-xr-xr-x   1 yarn     hadoop    1372076 May 31 06:41 ./mr-framework/hadoop/lib/native/libhadooppipes.a
+ 61342734   1348 -r-xr-xr-x   1 yarn     hadoop    1378834 May 31 06:41 ./mr-framework/hadoop/lib/native/libhadoop.a
+ 61342727    376 -r-xr-xr-x   1 yarn     hadoop     384332 May 31 06:41 ./mr-framework/hadoop/lib/native/libhdfs.a
+ 61342733    784 -r-xr-xr-x   1 yarn     hadoop     800196 May 31 06:41 ./mr-framework/hadoop/lib/native/libhadoop.so
+ 61342730    244 -r-xr-xr-x   1 yarn     hadoop     247370 May 31 06:41 ./mr-framework/hadoop/lib/native/libhdfs.so.0.0.0
+ 61342730    244 -r-xr-xr-x   1 yarn     hadoop     247370 May 31 06:41 ./mr-framework/hadoop/lib/native/libhdfs.so
+ 61342732    444 -r-xr-xr-x   1 yarn     hadoop     453690 May 31 06:41 ./mr-framework/hadoop/lib/native/libhadooputils.a
+ 61342733    784 -r-xr-xr-x   1 yarn     hadoop     800196 May 31 06:41 ./mr-framework/hadoop/lib/native/libhadoop.so.1.0.0
+ 61341740      4 drwxr-xr-x   4 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/share
+ 61341741      4 drwxr-xr-x   3 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/share/doc
+ 61341742      4 drwxr-xr-x   6 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/share/doc/hadoop
+ 61341751      4 drwxr-xr-x   9 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/share/hadoop
+ 61342048      4 drwxr-xr-x   5 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/share/hadoop/yarn
+ 61341752      4 drwxr-xr-x   3 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/share/hadoop/httpfs
+ 61342290      4 drwxr-xr-x   6 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/share/hadoop/common
+ 61342533      4 drwxr-xr-x   7 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/share/hadoop/hdfs
+ 61342629      4 drwxr-xr-x   5 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/share/hadoop/mapreduce
+ 61342396      4 drwxr-xr-x   3 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/share/hadoop/kms
+ 61342166      4 drwxr-xr-x   5 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/share/hadoop/tools
+ 61342735      4 drwxr-xr-x   2 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/include
+ 61342739      8 -r-xr-xr-x   1 yarn     hadoop       6330 May 31 06:41 ./mr-framework/hadoop/include/Pipes.hh
+ 61342740      4 -r-xr-xr-x   1 yarn     hadoop       3319 May 31 06:41 ./mr-framework/hadoop/include/TemplateFactory.hh
+ 61342738      8 -r-xr-xr-x   1 yarn     hadoop       4514 May 31 06:41 ./mr-framework/hadoop/include/SerialUtils.hh
+ 61342736     36 -r-xr-xr-x   1 yarn     hadoop      33361 May 31 06:41 ./mr-framework/hadoop/include/hdfs.h
+ 61342737      4 -r-xr-xr-x   1 yarn     hadoop       2441 May 31 06:41 ./mr-framework/hadoop/include/StringUtils.hh
+ 61341728      4 drwxr-xr-x   2 yarn     hadoop       4096 May 31 06:41 ./mr-framework/hadoop/libexec
+ 61341738      4 -r-xr-xr-x   1 yarn     hadoop       1640 May 31 06:41 ./mr-framework/hadoop/libexec/hdfs-config.cmd
+ 61341733      4 -r-xr-xr-x   1 yarn     hadoop       1508 May 31 06:41 ./mr-framework/hadoop/libexec/hdfs-config.sh
+ 61341730     12 -r-xr-xr-x   1 yarn     hadoop      11678 May 31 06:41 ./mr-framework/hadoop/libexec/hadoop-config.sh
+ 61341729      4 -r-xr-xr-x   1 yarn     hadoop       2131 May 31 06:41 ./mr-framework/hadoop/libexec/yarn-config.cmd
+ 61341737      4 -r-xr-xr-x   1 yarn     hadoop       1777 May 31 06:41 ./mr-framework/hadoop/libexec/mapred-config.cmd
+ 61341735     12 -r-xr-xr-x   1 yarn     hadoop       8270 May 31 06:41 ./mr-framework/hadoop/libexec/hadoop-config.cmd
+ 61341736      8 -r-xr-xr-x   1 yarn     hadoop       6016 May 31 06:41 ./mr-framework/hadoop/libexec/httpfs-config.sh
+ 61341734      4 -r-xr-xr-x   1 yarn     hadoop       2215 May 31 06:41 ./mr-framework/hadoop/libexec/yarn-config.sh
+ 61341731      4 -r-xr-xr-x   1 yarn     hadoop       2304 May 31 06:41 ./mr-framework/hadoop/libexec/mapred-config.sh
+ 61341732      8 -r-xr-xr-x   1 yarn     hadoop       5431 May 31 06:41 ./mr-framework/hadoop/libexec/kms-config.sh
+ 61473712      4 -r-x------   1 yarn     hadoop       3956 Sep 22 22:15 ./red_cal.py
+ 61473746      4 -rwx------   1 yarn     hadoop        764 Sep 22 22:15 ./default_container_executor.sh
+ 61473753      4 drwxr-xr-x   2 yarn     hadoop       4096 Sep 22 22:15 ./jobSubmitDir
+ 61473715      4 -r-x------   1 yarn     hadoop        407 Sep 22 22:15 ./jobSubmitDir/job.splitmetainfo
+ 61473728      4 -r-x------   1 yarn     hadoop       2383 Sep 22 22:15 ./jobSubmitDir/job.split
+ 61473742      8 -rwx------   1 yarn     hadoop       6609 Sep 22 22:15 ./launch_container.sh
+ 61473747      4 -rw-r--r--   1 yarn     hadoop         16 Sep 22 22:15 ./.default_container_executor.sh.crc
+ 61473743      4 -rw-r--r--   1 yarn     hadoop         60 Sep 22 22:15 ./.launch_container.sh.crc
+ 61473740      4 -rw-r--r--   1 yarn     hadoop        101 Sep 22 22:15 ./container_tokens
+ 61473745      4 -rw-r--r--   1 yarn     hadoop         16 Sep 22 22:15 ./.default_container_executor_session.sh.crc
+ 61473741      4 -rw-r--r--   1 yarn     hadoop         12 Sep 22 22:15 ./.container_tokens.crc
+ 61473739      4 drwx--x---   2 yarn     hadoop       4096 Sep 22 22:15 ./tmp
+ 61473709      4 -r-x------   1 yarn     hadoop       2394 Sep 22 22:15 ./map_cal.py
+ 61473731    124 -r-x------   1 yarn     hadoop     124527 Sep 22 22:15 ./job.xml
+ 61473726      4 drwx------   2 yarn     hadoop       4096 Sep 22 22:15 ./job.jar
+ 61473724    108 -r-x------   1 yarn     hadoop     108921 Sep 22 22:15 ./job.jar/job.jar
+broken symlinks(find -L . -maxdepth 5 -type l -ls):
